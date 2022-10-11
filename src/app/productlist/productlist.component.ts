@@ -15,7 +15,7 @@ export class ProductlistComponent implements OnInit {
   fetchData=()=>{
     this.myapi.viewshop().subscribe(
       (data)=>{
-        this.productsData
+        this.productsData=data
       }
     )
   }
